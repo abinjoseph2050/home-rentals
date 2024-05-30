@@ -1,0 +1,122 @@
+.App {
+  * {
+    font-family: "IBM Plex Serif", serif;
+    margin: 0;
+    padding: 0;
+  }
+
+  .cover {
+    position: relative;
+    height: 700px;
+    width: 100%;
+  }
+
+  .cover-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  .cover-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+
+  .cover-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-align: center;
+    z-index: 1;
+  }
+
+  .cover-title {
+    color: #f1f5f9;
+    font-weight: bold;
+    font-size: 45px;
+  }
+
+  .cover-title span.highlight {
+    color: #fef3c7;
+  }
+
+  .sub-title {
+    font-size: 15px;
+    margin-top: 10px;
+    font-weight: bold;
+    color: #f1f5f9;
+  }
+  .link-for-phone {
+    color: white;
+    text-decoration: none;
+  }
+
+  .description {
+    color: #d1d5db;
+    font-size: 16px;
+  }
+
+  .get-started {
+    font-size: 13px;
+    color: #fcd34d;
+    font-weight: bold;
+    text-decoration: none;
+  }
+
+  .get-started:hover {
+    text-decoration: underline;
+  }
+
+  .span-head {
+    font-size: 60px;
+    font-weight: 700;
+  }
+  .reduce {
+    font-size: 40px;
+    margin-top: 17px;
+    margin-left: -6px;
+  }
+
+  .img1 {
+    width: 500px;
+    height: 300px;
+  }
+  .first-head {
+    justify-content: center;
+    display: flex;
+    margin-top: 80px;
+    margin-bottom: 40px;
+  }
+  .fpara {
+    font-family: "Dancing Script", cursive;
+    font-size: 16px;
+  }
+
+  .third-container-cards {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  }
+  .th-title {
+    margin-top: 20px;
+  }
+  .third-container {
+    margin-top: 140px;
+  }
+
+  // footer
+
+  .foot {
+    margin-top: 200px;
+    display: flex;
+    justify-content: space-around;
+    background: transparent linear-gradient(224deg, #f1f1f1 0%, #c7cfcd 100%) 0%
+      0% no-repeat padding-box;
+  }
+}
