@@ -12,9 +12,10 @@ import { CommonModule } from '@angular/common';
 export class AppComponent {
   title = 'home-rentals';
 
-  images = ['https://lh3.googleusercontent.com/p/AF1QipOgmrybFSei6mwT8GDx-PBL8V_WzOPP_3FJ_hOo=s1360-w1360-h1020',
-    'https://lh3.googleusercontent.com/p/AF1QipNau5Gb14Dv65bMy1Sih74Ir5NbKKTSvWDY9Cxm=s1360-w1360-h1020',
-    'https://lh3.googleusercontent.com/p/AF1QipOgmrybFSei6mwT8GDx-PBL8V_WzOPP_3FJ_hOo=s1360-w1360-h1020',
-    'https://lh3.googleusercontent.com/p/AF1QipNau5Gb14Dv65bMy1Sih74Ir5NbKKTSvWDY9Cxm=s1360-w1360-h1020'
+  images = [
+    { url: '../assets/images/bayou4.jpg', heading: 'Tranquil Waters', desc: 'Enjoy serene moments by the calm waters surrounded by lush, moss-draped trees.' },
+    { url: '../assets/images/bayou6.jpg', heading: 'Cozy Deck', desc: 'Relax on our cozy deck with picturesque views of the surrounding nature and water.' },
+    { url: '../assets/images/bayou8.jpg', heading: 'Camp Fire', desc: "Gather around the warm campfire for an evening of stories, s'mores, and stargazing." },
+    { url: '../assets/images/bayou1.jpg', heading: 'Western Lodging', desc: 'Experience a unique stay in our themed western lodgings, blending rustic charm with modern comfort.' }
   ]
 }
